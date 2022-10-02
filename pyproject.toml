@@ -1,14 +1,18 @@
 [tool.poetry]
 name = "blog-backend"
 version = "0.1.0"
-description = ""
+description = "The blog.amador.dev.br backend."
 authors = ["Felipe Amador <felipedavidamador@gmail.com>"]
+maintainers = ["Felipe Amador <felipedavidamador@gmail.com>"]
+homepage = "https://blog.amador.dev.br"
+repository = "https://github.com/felipe-dna/blog-backend"
 readme = "README.md"
 packages = [{include = "blog_backend"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.1.1"
+python-decouple = "^3.6"
 
 
 [build-system]
